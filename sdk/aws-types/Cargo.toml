@@ -18,7 +18,7 @@ hardcoded-credentials = []
 [dependencies]
 tracing = "0.1"
 # to work with curve25519-dalek
-zeroize = { version = ">=1, <1.4", default-features = false }
+zeroize = "^1"
 http = "0.2.6"
 
 [dependencies.aws-smithy-async]
